@@ -1,5 +1,3 @@
-CREATE DATABASE  IF NOT EXISTS `bookdb` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `bookdb`;
 -- MySQL dump 10.13  Distrib 8.0.19, for Win64 (x86_64)
 --
 -- Host: localhost    Database: bookdb
@@ -25,11 +23,11 @@ DROP TABLE IF EXISTS `book`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `book` (
-  `BookdID` int NOT NULL AUTO_INCREMENT,
+  `bookID` int NOT NULL AUTO_INCREMENT,
   `BookName` varchar(45) DEFAULT NULL,
   `Author` varchar(45) DEFAULT NULL,
   `Description` varchar(250) DEFAULT NULL,
-  PRIMARY KEY (`BookdID`)
+  PRIMARY KEY (`bookID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -39,7 +37,7 @@ CREATE TABLE `book` (
 
 LOCK TABLES `book` WRITE;
 /*!40000 ALTER TABLE `book` DISABLE KEYS */;
-INSERT INTO `book` VALUES (1,'Libro 1','Juan Fuentes','Arquitectura'),(2,'Libro 2','Pedro perez','Ing software'),(3,'Libro 3','Juancho','Analisis y diseño'),(4,'Bases de datos','Rene','Hola'),(5,'DC','Juancho','xd'),(6,'XD','Juancho','xda');
+INSERT INTO `book` VALUES (1,'Libro 1','Juan Fuentes','Arquitectura'),(2,'Libro 2','Pedro perez','Ing software'),(3,'Libro 3','Juancho','Analisis y diseño'),(4,'Bases de datos','Rene','Hola'),(5,'DC','Juancho','xd');
 /*!40000 ALTER TABLE `book` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-11-16 17:58:49
+-- Dump completed on 2020-11-16 18:22:39

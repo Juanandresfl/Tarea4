@@ -1,0 +1,12 @@
+C:\Users\usuario\source\repos\MySqlCrud\MySqlCrud\bin\Debug\MySqlCrud.exe.config
+C:\Users\usuario\source\repos\MySqlCrud\MySqlCrud\bin\Debug\MySqlCrud.exe
+C:\Users\usuario\source\repos\MySqlCrud\MySqlCrud\bin\Debug\MySqlCrud.pdb
+C:\Users\usuario\source\repos\MySqlCrud\MySqlCrud\bin\Debug\MySql.Data.dll
+C:\Users\usuario\source\repos\MySqlCrud\MySqlCrud\obj\Debug\MySqlCrud.csprojAssemblyReference.cache
+C:\Users\usuario\source\repos\MySqlCrud\MySqlCrud\obj\Debug\MySqlCrud.Form1.resources
+C:\Users\usuario\source\repos\MySqlCrud\MySqlCrud\obj\Debug\MySqlCrud.Properties.Resources.resources
+C:\Users\usuario\source\repos\MySqlCrud\MySqlCrud\obj\Debug\MySqlCrud.csproj.GenerateResource.cache
+C:\Users\usuario\source\repos\MySqlCrud\MySqlCrud\obj\Debug\MySqlCrud.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\MySqlCrud\MySqlCrud\obj\Debug\MySqlCrud.csproj.CopyComplete
+C:\Users\usuario\source\repos\MySqlCrud\MySqlCrud\obj\Debug\MySqlCrud.exe
+C:\Users\usuario\source\repos\MySqlCrud\MySqlCrud\obj\Debug\MySqlCrud.pdb
